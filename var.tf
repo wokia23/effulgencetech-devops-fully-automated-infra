@@ -8,3 +8,7 @@ variable "key_pair_name" {
 #     type = string
 #     description = "vpc id to create the security group"
 # }
+variable "bucket_name" {
+    type = string
+    description = "S3 bucket name"
+}
